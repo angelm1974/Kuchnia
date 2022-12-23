@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743531998889",
+    "project_id": "kuchnia-c703d",
+    "storage_bucket": "kuchnia-c703d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743531998889:android:6b2944db38995d747fc3b8",
+        "android_client_info": {
+          "package_name": "com.nikt.kuchnia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743531998889-i7rs1mn7ofosvcp4tpf2s6rqppf6cf8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKh1jqANrY52YEC2HMPaoUZY9QZidcWQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743531998889-i7rs1mn7ofosvcp4tpf2s6rqppf6cf8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
