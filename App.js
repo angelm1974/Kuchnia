@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen } from './screens/HomeScreen';
-import { DetailsScreen } from './screens/DetailsScreen';
+import { MealsScreen } from './screens/MealsScreen';
 import { CategoriesScreen } from './screens/CategoriesScreen';
 
 import * as eva from '@eva-design/eva';
@@ -17,7 +17,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Ekran główny' }} />
-        <Stack.Screen name="Details" component={DetailsScreen} options={{ title: 'Ekran szczegółów' }}/>
+        <Stack.Screen name="Meals" component={MealsScreen} options={{ title: 'Lista dań' }}/>
         <Stack.Screen name="Categories" component={CategoriesScreen} options={{ title: 'Kategorie' }}/>
       </Stack.Navigator>
     </NavigationContainer>

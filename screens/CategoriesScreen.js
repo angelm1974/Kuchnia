@@ -12,7 +12,10 @@ export function CategoriesScreen ({ navigation }) {
 
 function renderCategoryItem(itemData) {
   function tilePressHandler() {
-    navigation.navigate('Details')
+    navigation.navigate('Meals', {
+      categoryId: itemData.item.id
+    } 
+      )
   }
 
 

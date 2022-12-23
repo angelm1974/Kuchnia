@@ -1,9 +1,8 @@
 import { StyleSheet, Text, View, Pressable } from 'react-native'
 import React from 'react'
-import { useNavigation } from '@react-navigation/native';
-import { Button, Layout  } from '@ui-kitten/components';
+
 function CategoryGridTile({title,color,onPress}){
-  const navigation = useNavigation();
+
   return (
     <View style={[styles.gridItem,{backgroundColor: color}]}>
       <Pressable 
@@ -16,9 +15,6 @@ function CategoryGridTile({title,color,onPress}){
         </View>
         
        </Pressable>
-       <Button onPress={()=>navigation.navigate("Home")}>
-        BUTTON
-      </Button>
     </View>
   )
 }
